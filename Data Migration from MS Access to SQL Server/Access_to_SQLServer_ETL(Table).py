@@ -1,8 +1,8 @@
 
 '''
-✅ Fully Automated MS Access → SQL Server (tables) ETL Script:
-- Tables go to ABSMC.dbo.[TableName]
-- No need to use username or password via Windows Authentication.
+Fully Automated MS Access → SQL Server (tables) ETL Script:
+* Tables go to ABSMC.dbo.[TableName]
+* No need to use username or password via Windows Authentication.
 '''
 
 import pyodbc
@@ -68,4 +68,3 @@ for table in tables:
 access_cursor.close()
 access_conn.close()
 print("[✔] ETL process complete.")
-
