@@ -30,7 +30,6 @@ CREATE TABLE [{table_name}] ({cols});
 '''
 cursor.execute(sql)
 
-# Inserts each row as placeholders (parameterized column values ?) and unpacking actual values using *row into SQL Server
 for _, row in df.iterrows():
     placeholders = ", ".join("?" for _ in row)
     cursor.execute(f"INSERT INTO [{table_name}] VALUES ({placeholders})", *row)  # parameterized query technique
