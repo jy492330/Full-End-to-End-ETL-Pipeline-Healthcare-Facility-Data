@@ -32,8 +32,7 @@ cursor.execute(sql)
 
 for _, row in df.iterrows():
     placeholders = ", ".join("?" for _ in row)
-    cursor.execute(f"INSERT INTO [{table_name}] VALUES ({placeholders})", *row)  # parameterized query technique
-    # original syntax: cursor.execute(sql, *parameters)  The parameter is an option sequence 
+    cursor.execute(f"INSERT INTO [{table_name}] VALUES ({placeholders})", *row)  # parameterized query 
 
 conn.commit()
 cursor.close()
