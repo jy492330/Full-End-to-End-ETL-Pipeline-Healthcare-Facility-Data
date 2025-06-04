@@ -1,9 +1,9 @@
 
 '''
-✅ Fully Automated MS Access → SQL Server (tables + views) ETL Script:
-- Tables go to ABSMC.dbo.[TableName]
-- Views recreated as T-SQL views under ABSMC.Views
-- No need to use username or password via Windows Authentication.
+Fully Automated MS Access → SQL Server (tables + views) ETL Script:
+* Tables go to ABSMC.dbo.[TableName]
+* Views recreated as T-SQL views under ABSMC.Views
+* No need to use username or password via Windows Authentication.
 '''
 
 import pyodbc
