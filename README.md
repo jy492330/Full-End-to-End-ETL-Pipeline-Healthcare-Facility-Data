@@ -2,7 +2,7 @@
 
 ## --- Summary ---
 
-This is a complete, Python-centric ETL pipeline for automating facility data migration and synchronization workflow between Microsoft Access, SQL Server, Excel, and Autodesk Revit (BIM models). It was developed and maintained during my role as a **Data Migration & Automation Specialist / Project Manager** at CTC – California Technical Contracting, Inc., for five major Sutter Health campuses in the San Francisco Bay Area: Alta Bates, Herrick, Merritt, Peralta, and Summit South Medical Centers.
+This is a complete, Python-centric ETL pipeline for automating facility data migration and synchronization workflow between Microsoft Access, SQL Server, Excel, and Autodesk Revit (BIM models). It was developed and optimized during my role as a **Data Migration & Automation Specialist / Project Manager** at CTC – California Technical Contracting, Inc., for five major Sutter Health campuses in the San Francisco Bay Area: Alta Bates, Herrick, Merritt, Peralta, and Summit South Medical Centers.
 
 The solution enables bidirectional data flow:
 - **Initial migration between databases** (Access → SQL Server),
