@@ -14,7 +14,7 @@ This project ensures data accuracy, reduces redundancy, and significantly improv
 
 ---
 
-## === Folder Structure ===
+## --- Folder Structure ---
 
 ### `Data Migration from MS Access to SQL Server`
 
@@ -66,7 +66,7 @@ This section supports bi-directional sync by extracting parameter values from Re
 
 ---
 
-## === Tech Stack ===
+## --- Tech Stack ---
 
 | Layer        | Tools & Libraries                                                                 |
 |--------------|-------------------------------------------------------------------------------------|
@@ -81,7 +81,7 @@ This section supports bi-directional sync by extracting parameter values from Re
 
 ---
 
-## === Results and Impact ===
+## --- Results and Impact ---
 
 - Migrated thousands of legacy facility records from Access to SQL Server with schema harmonization.
 - Enabled live schedule updates in Revit models with data integrity enforced through custom scripts.
@@ -89,11 +89,11 @@ This section supports bi-directional sync by extracting parameter values from Re
 - Set up a robust framework for audit-ready data handling with scheduled Prefect jobs and data backups.
 - Enabled visualization and compliance reporting across 5 campuses through structured Excel and Tableau exports.
 
-> * This workflow became a cornerstone of facility operations and digital coordination for Sutter Health campuses.
+> **This workflow became a cornerstone of facility operations and digital coordination for Sutter Health campuses.**
 
 ---
 
-## === Notes ===
+## --- Notes ---
 
 - This project contains sensitive structure but no PHI or patient data.
 - Scripts are modular, reusable with shared parameters across new campuses with minimal config.
@@ -101,7 +101,7 @@ This section supports bi-directional sync by extracting parameter values from Re
 
 ---
 
-## === Author ===
+## --- Author ---
 
 Jin Yang (Jin Jessica Yang)  
 https://jinjessicayang.com 
