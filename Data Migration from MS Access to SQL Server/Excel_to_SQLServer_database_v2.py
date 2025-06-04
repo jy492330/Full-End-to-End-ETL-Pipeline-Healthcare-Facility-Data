@@ -2,14 +2,13 @@
 Load ALL sheets into SQL Server
 
 It includes:
-✅ Raw string path handling
-✅ Safe dropping/creation of tables
-✅ Conversion of all cell values to string (avoids type coercion errors)
-✅ Table name cleanup (removing spaces)
+* Raw string path handling
+* Safe dropping/creation of tables
+* Conversion of all cell values to string (avoids type coercion errors)
+* Table name cleanup (removing spaces)
 '''
 import pyodbc
 import pandas as pd
-
 
 excel_path = r"C:\Users\jy492\OneDrive\Lenovo Desktop (new)\WORKSPACE\Data Engineering Projects\Data Migration from MS Access to SQL Server\Room Schedule.xlsx"
 
@@ -43,9 +42,7 @@ for sheet in sheet_names:
         placeholders = ", ".join("?" for _ in row)
         cursor.execute(f"INSERT INTO [{table_name}] VALUES ({placeholders})", *row) 
 
-
 conn.commit()
 cursor.close()
 conn.close()
 print("[✓] All sheets imported successfully into SQL Server.")
-
