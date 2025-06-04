@@ -4,9 +4,8 @@ Load only ONE specified sheet into SQL Server
 import pyodbc
 import pandas as pd
 
-
 excel_path = r"C:\Users\jy492\OneDrive\Lenovo Desktop (new)\WORKSPACE\Data Engineering Projects\Data Migration from MS Access to SQL Server\Room Schedule.xlsx"  
-# excel_path = 'C:\\Users\\jy492\\OneDrive\\Lenovo Desktop (new)\\WORKSPACE\\Data Engineering Projects\\Data Migration from MS Access to SQL Server\\Room Schedule.xlsx'  # Alternative
+# excel_path = 'C:\\Users\\jy492\\OneDrive\\Lenovo Desktop (new)\\WORKSPACE\\Data Engineering Projects\\Data Migration from MS Access to SQL Server\\Room Schedule.xlsx'  
 df = pd.read_excel(excel_path, sheet_name="Room Schedule")
 df = df.astype(str)  
 
@@ -38,4 +37,3 @@ conn.commit()
 cursor.close()
 conn.close()
 print("[✓] Excel sheet imported successfully into SQL Server.")
-
