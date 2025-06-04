@@ -36,6 +36,7 @@ query_map = {
         WHERE FloorId LIKE 'PER%'
     """
 }
+
 for filename, sql_query in query_map.items():
     df = pd.read_sql(sql_query, conn)
     df.to_excel(filename, index=False)
