@@ -1,6 +1,6 @@
 # Full End-to-End ETL Pipeline for Healthcare Facility Data: Sutter_ABSMC_ETL_Workflow
 
-## === Summary ===
+## --- Summary ---
 
 This project presents a complete, Python-centric ETL pipeline for automating facility data migration and synchronization between Microsoft Access, SQL Server, Excel, and Autodesk Revit (BIM models). It was developed and maintained during my role as a **Data Migration & Automation Specialist / Project Manager** at CTC – California Technical Contracting, Inc., for five major Sutter Health campuses in the San Francisco Bay Area: Alta Bates, Herrick, Merritt, Peralta, and Summit South Medical Centers.
 
