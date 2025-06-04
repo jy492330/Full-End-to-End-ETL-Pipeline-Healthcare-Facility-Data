@@ -1,11 +1,10 @@
 '''
-✅ Script 1: SQL Server Backup
+SQL Server Backup
 '''
 
 import os
 import pyodbc
 from datetime import datetime
-
 
 # --- CONFIGURATION ---
 SQL_Server = "JESSICA-DESKTOP"
@@ -38,7 +37,6 @@ BACKUP DATABASE [{SQL_DB}] TO DISK = N'{backup_file_path}'
 WITH FORMAT, NAME = N'{SQL_DB} Full Backup';  
 """
 cursor.execute(sql)   # implicit transaction
-
 
 cursor.commit()
 cursor.close()
