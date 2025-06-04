@@ -1,4 +1,4 @@
-# Full end-to-end headless ETL pipeline
+# Full end-to-end headless ETL pipeline: SQL Server → Excel
 
 import pyodbc
 import pandas as pd
