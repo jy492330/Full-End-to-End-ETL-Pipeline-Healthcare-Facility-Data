@@ -1,7 +1,6 @@
 '''
-Script 1: SQL Server Backup
+SQL Server Backup
 '''
-
 import os
 import pyodbc
 from datetime import datetime
