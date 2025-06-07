@@ -45,7 +45,7 @@ This section generates Excel outputs for each medical center (ROOM_ALB, ROOM_HER
 **Key components:**
 - `SQLServer-to-Excel/`  
   - `SQLServer_to_Excel.py`  
-  - Output files for 5 campuses in both `.csv` and `.xlsx` formats
+  - Output files for 5+ campuses in both `.csv` and `.xlsx` formats
 - `Excel-to-BIM/`  
   - Revit models like `Alta Bates_Migration.rvt`, `Herrick_Migration.rvt`, etc.
   - pyRevit buttons like: `ALT_Room.pushbutton/script.py`, `HER_Room.pushbutton/script.py`, etc.
