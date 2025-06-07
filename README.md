@@ -52,6 +52,7 @@ This section generates Excel outputs for each medical center (ROOM_ALB, ROOM_HER
   - Parameter folders + screenshots of successful imports
 - `Excel-to-Tableau/`  
   - Foldered by campus for Tableau dashboards (Ashby, Herrick, Merritt, Peralta, and Summit South)
+  - Interactive Tableau dashboards like `Ashby Dashboard_Updated.twb`, `Herrick Dashboard_Updated..twb`, etc. with alternative .html files.
 
 ---
 
